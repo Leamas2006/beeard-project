@@ -48,6 +48,14 @@ Before working on the code, make sure to activate the environment using:
 conda activate beeard
 ```
 
+Download Ollama LLM on your PC (ВОТ ЗДЕСЬ НУЖНО ПЕРЕПИСАТЬ)
+```Bash
+ollama pull mistral:7b-instruct  # Для общих задач
+ollama pull llama3:8b            # Для генерации текста
+ollama pull nous-hermes:7b       # Для научных задач
+ollama pull nous-hermes2:10.7b
+```
+
 ## 📥 Cloning the Repository 
 
 Follow these steps to clone the repository to your local machine:
