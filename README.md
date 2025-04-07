@@ -10,6 +10,8 @@ This repository contains materials for Test BeeARD project
     
 4. **Ollama**: Download and install from [https://ollama.com/download/windows](https://ollama.com/download/windows)
 
+5. 
+
 ### Recommended VS Code Extensions
 Install from VS Code marketplace (Ctrl+Shift+X):
 
@@ -72,7 +74,7 @@ cd /path/to/your/folder
 ```
 The cd command changes your current working directory to the newly created folder.
 
-3. Clone the repository into the current folder:
+3. Clone the repository into the current folder: (REWRITE: git init; git set remote origin -- и че то так, а также посмотреть как работать в команде с ветками что бы всегда иметь контроль над версиями и бэкап )
 ```bash
 git clone https://github.com/Leamas2006/beeard-project.git .
 ```
