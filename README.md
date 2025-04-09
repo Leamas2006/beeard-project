@@ -5,10 +5,13 @@ This repository contains materials for Test BeeARD project
 ## Required Software
 1. **VS Code**: Download and install from [code.visualstudio.com](https://code.visualstudio.com/)
   
-3. **Python Distribution**:
-   - **Anaconda**: Full data science package download and install from [anaconda.com/download](https://www.anaconda.com/download)
+3. **Python Distribution**: **Anaconda** -- Full data science package download and install from [anaconda.com/download](https://www.anaconda.com/download)
     
 4. **Ollama**: Download and install from [https://ollama.com/download/windows](https://ollama.com/download/windows)
+
+5. **Git**: Download and install from [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+
 
 ### Recommended VS Code Extensions
 Install from VS Code marketplace (Ctrl+Shift+X):
@@ -35,7 +38,7 @@ Install from VS Code marketplace (Ctrl+Shift+X):
 - Rainbow CSV
 
 ## 🛠️ Environment Setup 
-An `Anaconda Distribution` is required. Once downloaded, start with creating a virtual environment using:
+An `Anaconda Distribution` is required. Once downloaded, start with creating a virtual environment using `Anaconda Prompt`:
 
 ```Bash
 conda env create --name beeard -f environment.yml
@@ -48,15 +51,13 @@ Before working on the code, make sure to activate the environment using:
 conda activate beeard
 ```
 
-Download Ollama LLM on your PC (ВОТ ЗДЕСЬ НУЖНО ПЕРЕПИСАТЬ)
+Download Ollama LLMs on your PC (Comment:Update for this part is coming)
 ```Bash
-ollama pull mistral:7b-instruct  # Для общих задач
-ollama pull llama3:8b            # Для генерации текста
-ollama pull nous-hermes:7b       # Для научных задач
-ollama pull nous-hermes2:10.7b
+ollama pull llama3.1:8b
+ollama pull hermes3:8b
 ```
 
-## 📥 Cloning the Repository 
+## 📥 Cloning the Repository (THIS PART IS JUST FOR TRAINING -- REPO`s BRANCHES IS NOT CORRECTLY ORGANISED)
 
 Follow these steps to clone the repository to your local machine:
 
@@ -72,13 +73,18 @@ cd /path/to/your/folder
 ```
 The cd command changes your current working directory to the newly created folder.
 
-3. Clone the repository into the current folder:
+3. Clone the repository into the current folder: (REWRITE: git init; git set remote origin -- и че то так, а также посмотреть как работать в команде с ветками что бы всегда иметь контроль над версиями и бэкап )
 ```bash
+git init
 git clone https://github.com/Leamas2006/beeard-project.git .
+git remote -v
+git status
 ```
 This downloads all repository files into your current directory.
 > **Note:** The trailing dot (`.`) after the repository URL tells Git to clone directly into the current directory instead of creating a new subdirectory.
-
+> **Note:** check if source for (fetch) and (push) i correct -- `https://github.com/Leamas2006/beeard-project`
+> **Note:** in the status bar shoud say thats all is synchronised or smth like that 
+> **Note:** To be able to train work with repo you need to create your own github accounts and pin your usernames in discord chat. Thats all for now///
 
 ## 📂 Project Organization
 
