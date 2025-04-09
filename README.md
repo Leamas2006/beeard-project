@@ -73,7 +73,7 @@ cd /path/to/your/folder
 ```
 The cd command changes your current working directory to the newly created folder.
 
-3. Clone the repository into the current folder: (REWRITE: git init; git set remote origin -- и че то так, а также посмотреть как работать в команде с ветками что бы всегда иметь контроль над версиями и бэкап )
+3. Clone the repository into the current folder:
 ```bash
 git init
 git clone https://github.com/Leamas2006/beeard-project.git .
