@@ -84,7 +84,7 @@ This downloads all repository files into your current directory.
 > **Note:** The trailing dot (`.`) after the repository URL tells Git to clone directly into the current directory instead of creating a new subdirectory.
 > **Note:** check if source for (fetch) and (push) i correct -- `https://github.com/Leamas2006/beeard-project`
 > **Note:** in the status bar shoud say thats all is synchronised or smth like that 
-> **Note:** I blocked the (push) function for now 
+> **Note:** To be able to train work with repo you need to create your own github accounts and pin your usernames in discord chat. Thats all for now///
 
 ## 📂 Project Organization
 
